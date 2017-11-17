@@ -1,8 +1,6 @@
 <template>
   <div id="app">
-   <el-input placeholder="请输入内容" >
-    <template slot="prepend">￥</template>
-  </el-input>
+   
       <el-checkbox :indeterminate="isIndeterminate" v-model="checkAll" @change="handleCheckAllChange">全选</el-checkbox>
   <div style="margin: 15px 0;"></div>
   <el-checkbox-group v-model="checkedCities" @change="handleCheckedCitiesChange">
